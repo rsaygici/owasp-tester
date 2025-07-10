@@ -1,14 +1,14 @@
-import broken_access_control
-import injection
-import security_misconfiguration
-import authentication_failure
-import vulnerable_components
-import account_takeover
-import cross_site_scripting
-import remote_code_execution
-import insecure_deserialization
-import server_side_request_forgery
-import software_data_integrity_failures
+from modules import broken_access_control
+from modules import injection
+from modules import security_misconfiguration
+from modules import authentication_failure
+from modules import vulnerable_components
+from modules import account_takeover
+from modules import cross_site_scripting
+from modules import remote_code_execution
+from modules import insecure_deserialization
+from modules import server_side_request_forgery
+from modules import software_data_integrity_failures
 
 def run_all_tests(base_url):
     all_findings = []
